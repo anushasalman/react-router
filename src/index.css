@@ -1,0 +1,59 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body>div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container>div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+  background-image: url("https://img.freepik.com/free-vector/fruits-background-desktop-wallpaper-cute-vector_53876-140209.jpg");
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section>div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-image:url("https://images-ext-1.discordapp.net/external/7yxEysTLQ0K-ISDeLBAeJPBe_2p8npvn5z3H9pJVWtE/https/cdn.midjourney.com/20ff7fd7-d229-4663-8017-a6359d49ea6c/0_3.webp?format=webp&width=744&height=744");
+  color: white;
+  font-variant: small-caps;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blue {
+  background-image:url("https://images-ext-1.discordapp.net/external/zzok0uJ2eJkQBV4TO6WmKY8VcneagHl57XjbvgqGUe0/https/cdn.midjourney.com/af4e0e91-f5d5-4fb7-9923-8bfb63eaa703/0_2.webp?format=webp&width=744&height=744");
+  color: white;
+  font-variant: small-caps;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home {
+  color:whitesmoke;
+  font-variant: small-caps;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("https://images-ext-1.discordapp.net/external/HTa6VeAwSlxmEfQR4SM6vHKUlUQHA7QAf217LQdCuME/https/cdn.midjourney.com/ec82189a-814d-4e0a-ba33-0ea87afbaa0d/0_0.webp?format=webp&width=744&height=744");
+  background-repeat: repeat;
+}
